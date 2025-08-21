@@ -4,7 +4,7 @@ import 'package:weather_app/models/weather_model.dart';
 class WeatherRepository {
 
   final Dio _dio = Dio();
-  final String apiKey = 'e2a7b0447144a4adc83afa43def1bc51';
+  final String apiKey = "YOUR_API_KEY_HERE";
 
   Future<Weather> fetchWeather(String city) async {
     final response = await _dio.get(
