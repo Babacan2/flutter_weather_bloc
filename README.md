@@ -1,16 +1,23 @@
-# weather_app
+# 🌦️ Flutter Weather App
 
-A new Flutter project.
+A simple weather application built with **Flutter**, using **Dio** for API requests and **Bloc/Cubit** for state management.  
+The app fetches real-time weather data from the [OpenWeatherMap API](https://openweathermap.org/api).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- 🌍 Fetch current weather by city name
+- 📡 Uses **Dio** for network requests
+- 🏗️ State management with **Bloc/Cubit**
+- 🎨 Modern and responsive UI
+- ⚡ Fast and lightweight
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- [Flutter](https://flutter.dev/)  
+- [Dio](https://pub.dev/packages/dio)  
+- [Bloc / Cubit](https://bloclibrary.dev/)  
+- [OpenWeatherMap API](https://openweathermap.org/api)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
